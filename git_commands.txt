@@ -1,0 +1,18 @@
+git commands
+    git clone 'url' // w/o quotes
+        -downloads git repo into current directory
+
+    git status
+        -displays differences between git repo and downloaded repo
+
+    git add 'filename'
+        -add any changes or files by name
+
+    git commit -m 'message' // w/ quotes
+        -locked into repo but not synced up to github.com
+
+    git push
+        -anything in the machine to github.com
+
+    git pull
+        -works when in a repo directory; pull down from github.com to machine
