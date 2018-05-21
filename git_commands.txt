@@ -16,3 +16,8 @@ git commands
 
     git pull
         -works when in a repo directory; pull down from github.com to machine
+
+    git rm - --cached 'folder or filename'
+        - removes directory or file(? not sure about file, need to test this)
+          from git but not the local file system (after rm proceed with
+          commit and push to apply changes in git)
